@@ -6,17 +6,13 @@
 		
 		public function __construct()
 		{
-		$this->postModel = $this->model('Post');
 		}
 
 
 		public function index()
 		{
-			$post = $this->postModel->getPost();
-			$data =["title" => 'Welcome',
-					"post" => $post ];
+			$data =["title" => 'Welcome'];
 			
-
 			$this->views('pages/index', $data);
 		}
 

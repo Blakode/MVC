@@ -6,21 +6,21 @@
 	define("DB_HOST", '127.0.0.1');
 
 	// db user
-	define("DB_USER", "user");
+	define("DB_USER", "UR_USER");
 
 	// Db pass
-	define("DB_PASS", 123456789);
+	define("DB_PASS", "UR_PASS");
 
-	define("DB_NAME", 'Test');
+	define("DB_NAME", 'UR_DBNAME');
 
-	// APP ROOT
+	// APP ROOT    confiure app root locating the dir base
 	define('APPROOT', dirname(dirname(__FILE__)));
 
 	//URL ROOT
-	define('URLROOT', 'http://localhost/php/MVC');
+	define('URLROOT', 'UR_URL');
 
 	//Sitename
-	define('SITENAME', 'TraversyMVC');
+	define('SITENAME', 'UR_SITENAME');
 	
 
 	// GRANT ALL PRIVILEGES ON *Test* TO 'user'@'localhost' IDENTIFIED BY '123456789';	
